@@ -1,0 +1,50 @@
+html {
+  background-color: #02111b;
+  color: white;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.calculator-container {
+  margin: 42px;
+}
+
+input {
+  color: #a8a8a8;
+  font-weight: 600;
+  font-size: 1.3em;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.459);
+  border: none;
+  text-align: center;
+  padding: 5px;
+}
+
+.output {
+  display: flex;
+  flex-direction: column;
+}
+
+.calculated {
+  margin: 15px;
+  color: #5d737e;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.font-1 {
+  color: #5d737e;
+}
+
+.font-2 {
+  color: rgb(82, 116, 82);
+  font-weight: 50;
+  font-size: 1.2rem;
+}
+
+.divider {
+  color: white;
+}
