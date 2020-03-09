@@ -33,16 +33,18 @@ input {
   color: rgb(197, 129, 2);
   font-size: 1.2em;
   font-weight: 400;
+  transition: ease-in-out 0.2s;
 }
 
-/* .calculated:active {
+/* .calculated:hover {
   color: #a8a8a8;
-  font-weight: 600;
-  font-size: 1.3em;
+  font-weight: 900;
+  font-size: 1.5em;
   outline: none;
-  background-color: #3f4045;
   border: none;
   text-align: center;
+  margin: 12px;
+
   padding: 5px;
 } */
 
