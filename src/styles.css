@@ -46,5 +46,11 @@ input {
 }
 
 .divider {
+  margin-top: 10px;
   color: white;
+}
+
+.footer-container {
+  font-size: 12px;
+  color: #505157;
 }
