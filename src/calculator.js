@@ -5,13 +5,13 @@ export default class Calculator extends Component {
     super(props);
     this.state = {
       salaryInput: "",
-      salary: 0.0,
-      yearly: 0.0,
-      monthly: 0.0,
-      biweekly: 0.0,
-      weekly: 0.0,
-      daily: 0.0,
-      hourly: 0.0,
+      salary: 0,
+      yearly: 0,
+      monthly: 0,
+      biweekly: 0,
+      weekly: 0,
+      daily: 0,
+      hourly: 0,
       inputError: ""
     };
   }
