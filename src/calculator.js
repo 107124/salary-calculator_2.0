@@ -46,18 +46,13 @@ export default class Calculator extends Component {
     this.calculate(event.target.value);
   };
 
-  toClear = () => {
-    this.setState({
-      salaryInput: "",
-      salary: null,
-      yearly: null,
-      monthly: null,
-      biweekly: null,
-      weekly: null,
-      daily: null,
-      hourly: null,
-      inputError: ""
-    });
+  handleSelect = event => {
+    console.log(event.target.value);
+    // if(event.target.value === "dailySelect"){
+    //   this.setState({
+    //     daily: event
+    //   })
+    // }
   };
 
   doNothing = event => {
@@ -69,6 +64,16 @@ export default class Calculator extends Component {
     return (
       <div className="calculator-container">
         <form onSubmit={this.doNothing}>
+          {/* <div>
+            <select onChange={this.handleSelect}>
+              <option value="yearlySelect">Yearly</option>
+              <option value="monthlySelect">Monthly</option>
+              <option value="biWeeklySelect">Bi-Weekly</option>
+              <option value="weeklySelect">Weekly</option>
+              <option value="dailySelect">Daily</option>
+              <option value="hourlySelect">Hourly</option>
+            </select>
+          </div> */}
           <input
             type="number"
             name="salaryInput"
