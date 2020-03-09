@@ -17,7 +17,7 @@ input {
   font-weight: 600;
   font-size: 1.3em;
   outline: none;
-  background-color: rgba(0, 0, 0, 0.459);
+  background-color: #3f4045;
   border: none;
   text-align: center;
   padding: 5px;
@@ -34,6 +34,17 @@ input {
   font-size: 1.2em;
   font-weight: 400;
 }
+
+/* .calculated:active {
+  color: #a8a8a8;
+  font-weight: 600;
+  font-size: 1.3em;
+  outline: none;
+  background-color: #3f4045;
+  border: none;
+  text-align: center;
+  padding: 5px;
+} */
 
 .font-1 {
   color: #5d737e;
